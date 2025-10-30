@@ -1,0 +1,24 @@
+{
+  "name": "learn-langchain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "scripts": {
+    "start": "ts-node ./src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.16.1",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.36.0",
+    "dotenv": "^16.4.5",
+    "fastembed": "^1.14.4",
+    "langchain": "^0.0.152"
+  },
+  "devDependencies": {
+    "@types/node": "^24.9.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
